@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<link rel="stylesheet" type="text/css" href="cscs_indextugas.css">
+		<meta charset="UTF-8">
+		<title>This is My Portofolio</title>
+  </head>
+
+  <img class="img-bunder" src="http://www.wdmcs.org/wp-content/uploads/2012/06/tigers-paw1.jpg" style="width:180px;height:180px;">
+
+<body>
+		<br>Call Me Tiger<br>This is my Resume and Bio
+</body>
+	<br>
+<div class="tulisanbutton">
+	<a href="http://tigerNOTtigers.github.io/resume.html" class="button button1">Resume</a>
+	<a href="http://tigerNOTtigers.github.io/bio.html" class="button button2">Biography</a>
+</div>
+
+</html>
