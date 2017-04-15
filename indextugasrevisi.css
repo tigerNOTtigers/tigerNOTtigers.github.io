@@ -1,0 +1,60 @@
+.img-bunder{
+	border-radius: 50%;
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+	border: black;
+}
+.tulisanbutton{
+	font-family: 'Kozuka Gothic Pro B', sans-serif;
+	text-shadow: none;
+}
+body {
+	text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	margin-top: 3.5cm;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    height: 100%;
+    font-family: 'Lucida Calligraphy', sans-serif;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ca/dd/b6/caddb6887e339d9eba461e009678c616.jpg");
+	
+}
+.button {
+    background-color: #4CAF50; 
+    border: none;
+	border-radius: 8px;
+    color: white;
+    padding: 13px 26px;
+    text-align: center;
+    text-decoration: none;
+	text-transform: uppercase;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+	}
+
+.button2 {
+	background-color: white;
+	color: black;
+	border: 2px solid #37D2FC;
+}
+.button2:hover {
+	background-color: #37D2FC;
+	color: white;
+}
