@@ -10,7 +10,10 @@ body {
     height: 100%;
     font-family: 'Calibri', sans-serif;
 	background-color: #37D2FC;
-	
+}
+hr {
+	height: 2px;
+	background-color: black;
 }
 .container {
 	text-align: center;
