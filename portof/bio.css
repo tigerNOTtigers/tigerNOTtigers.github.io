@@ -2,13 +2,14 @@ body {
 	text-align: center;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 	margin-top: 1cm;
+	margin-bottom: 1cm;
     font-size: 18px;
     line-height: 30px;
 	word-wrap: break-word;
     letter-spacing: 0.5px;
     height: 100%;
     font-family: 'Calibri', sans-serif;
-	background-color: #37D2FC
+	background-color: #37D2FC;
 	
 }
 .container {
@@ -17,6 +18,7 @@ body {
 	margin-right: 4cm;
 	margin-left: 4cm;
 	margin-top: 3cm;
+	margin-bottom: 1cm;
 }
 .textlho {
 	text-align: left;
@@ -31,4 +33,55 @@ body {
 }
 .endas{
 	font-size: 40px;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  border: 2px solid #37D2FC;
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  margin: 5px;
+}
+.button:hover {
+  color: #4CAF50;
+  background-color: white;
+  border: 2px solid #4CAF50;
+   transition: 0.1s;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.1s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.gantiwerno{
+	background-color: #f4511e;
+}
+.inibutton{
+	font-family: 'Kozuka Gothic Pro B', sans-serif;
+	text-shadow: none;
+	font-size: 17px;
 }
