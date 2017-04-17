@@ -11,6 +11,10 @@ body {
 	background-color: #4CAF50
 	
 }
+hr {
+	height: 2px;
+	background-color: black;
+}
 .container {
 	text-align: center;
 	background-color: white;
