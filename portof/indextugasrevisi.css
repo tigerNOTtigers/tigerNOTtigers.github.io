@@ -47,6 +47,7 @@ body {
 .button1:hover {
     background-color: #4EFF92;
     color: white;
+	border: 2px solid white;
 	}
 
 .button2 {
@@ -57,4 +58,5 @@ body {
 .button2:hover {
 	background-color: #37D2FC;
 	color: white;
+	border: 2px solid white;
 }
