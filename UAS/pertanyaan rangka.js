@@ -44,6 +44,6 @@ function loadNextQuestion () {
 	loadQuestion(currentQuestion);
 }
 function backHome() {
-    window.history.back();
+    window.location.assign("https://tigernottigers.github.io/UAS/UAS.html")
 }
 loadQuestion(currentQuestion);
