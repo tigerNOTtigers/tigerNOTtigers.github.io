@@ -41,7 +41,7 @@ var questions = [{
 	"option4": "211",
 	"answer": "1"
 }, {
-	"question": "Ibu Tarjo membeli semangka sebanyak 20 biji. Lalu dibagi rata untuk kepada nining, nunung, dan nanang. Berapakah banyak semangka yang didapat Tarjo ??",
+	"question": "Ibu Tarjo membeli semangka sebanyak 20 buah. Lalu dibagi rata untuk kepada nining, nunung, dan nanang. Berapakah banyak semangka yang didapat Tarjo ??",
 	"option1": "6 biji",
 	"option2": "5 biji",
 	"option3": "2 biji",
@@ -63,7 +63,7 @@ var questions = [{
 	"answer": "2"
 }, {
 	"question": "512 dibagi rata = ?",
-	"option1": "8",
+	"option1": "5",
 	"option2": "3",
 	"option3": "4",
 	"option4": "2",
