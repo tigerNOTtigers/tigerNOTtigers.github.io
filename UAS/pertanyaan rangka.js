@@ -29,6 +29,10 @@ function loadNextQuestion () {
 	var answer = selectedOption.value;
 	if(questions[currentQuestion].answer == answer){
 		score += 9.4;
+		//fixing bug
+		if(score==28.200000000000003){
+		score -= 0.000000000000003;
+		}
 	}
 	selectedOption.checked = false;
 	currentQuestion++;
@@ -38,7 +42,8 @@ function loadNextQuestion () {
 	if(currentQuestion == jumsoal){
 		container.style.display = 'none';
 		resultCont.style.display = '';
-			if(score == 94.00000000000001){
+			//fixing bugs
+			if(score>=83){
 			score -= 0.00000000000001;
 			}
 		resultCont.textContent = 'Your score: ' + score + '/94';
