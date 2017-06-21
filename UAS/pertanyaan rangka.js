@@ -38,6 +38,9 @@ function loadNextQuestion () {
 	if(currentQuestion == jumsoal){
 		container.style.display = 'none';
 		resultCont.style.display = '';
+			if(score == 94.00000000000001){
+			score -= 0.00000000000001;
+			}
 		resultCont.textContent = 'Your score: ' + score + '/94';
 		return;
 	}
