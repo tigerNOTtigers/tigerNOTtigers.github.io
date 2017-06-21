@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quiz</title>
+		<link href="css_quiz.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="quizContainer" class="container">
+			<div class="title">Pick one kiddo</div>
+			<div id="question" class="question"></div>
+			<label class="option"><input type="radio" name="option" value="1" /> <span id="opt1"></span></label>
+			<label class="option"><input type="radio" name="option" value="2" /> <span id="opt2"></span></label>
+			<label class="option"><input type="radio" name="option" value="3" /> <span id="opt3"></span></label>
+			<label class="option"><input type="radio" name="option" value="4" /> <span id="opt4"></span></label>
+			<button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next</button>
+			<button id="backHome" class="buttonback" onclick="https://tigerNOTtigers.github.io/UAS2/UAS.html">Back to Home</a>
+		</div>
+		<div id="result" class="container result" style="display:none;">	
+		</div>
+		<script src="pertanyaan.js"></script>
+		<script src="pertanyaan rangka.js"></script>
+	</body>
+</html>
